@@ -1,0 +1,10 @@
+#inputs 5 numbers from user and sums the numbers
+#define a function
+def sum_5():
+    sum_n = (0)
+    for i in range(5):
+        n = int(input("Enter a whole number: "))
+        sum_n = sum_n + n
+        average = sum_n/5
+    print(f"The sum of numbers is {sum_n} and average is {average}")
+sum_5()
